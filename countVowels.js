@@ -5,7 +5,9 @@ let answer = document.querySelector("#submit");
 
 // Create an event listener for the submit button
 submit.addEventListener("click", function(){
-
+    let inputValue = input.value;
+    countVowels(inputValue);
+    console.log(inputValue);
 });
 
 // Create a function that takes in a string, counts the vowels, and displays the answer
